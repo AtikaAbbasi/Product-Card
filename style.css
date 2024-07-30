@@ -1,0 +1,286 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.main{
+height: 100vh;
+max-width: 100vw;
+background-color: rgb(157, 197, 183);
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+
+.parent{
+background-color: white;
+min-height: 85vh;
+width: 55vw;
+border-radius: 10px;
+display: flex;
+box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+position: relative;
+margin-top: 5em;
+
+}
+
+.apple{
+margin: 2.4em 0 0 11em;
+
+
+}
+
+.child{
+background-color:rgb(37, 164, 37);
+height: 85%;
+width: 45%;
+position: absolute;
+left: -5%;
+top:7%;
+border-radius: 10px;
+box-shadow: rgba(0, 0, 0, 0.1) 1.95px 1.95px 2.6px;
+
+}
+
+.icons{
+height: 10%;
+width: 100%;
+background-color:rgb(49, 162, 49);
+display: flex;
+justify-content: space-between;
+color: white;
+border-radius: 5px;
+ 
+}
+
+.childimg{
+
+width: 80%;
+position: absolute;
+width: 100%;
+left: -20%;
+top: 5%;
+filter: drop-shadow(13px 2px 10px #464444);
+
+}
+
+.imge{
+
+height: 75%;
+width: 90%;
+}
+
+.option{
+
+height: 15%;
+width: 100%;
+background-color: white;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+
+}
+.box{
+border:1px solid gray;
+height: 40px;
+width: 45px;
+
+}
+.share{
+margin-top: 1em;
+margin-left: 1em;
+
+}
+
+.heart{
+
+margin: 1em 1em 0 0;
+
+}
+
+.box1{
+    height: 40px;
+width: 45px;
+}
+.box1:hover{
+    scale: 1.5;
+}
+
+
+/* 
+.child2{
+    height: 100%;
+    width: 55%; 
+    background-color: rgb(154, 106, 35);
+    /* display: inline-block; 
+} */
+
+.child2{
+    width: 55%;
+    height: 100%;
+    background-color: white;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 0 7px 7px 0;
+    position: absolute;
+    right: 0;
+    
+}
+
+.apple{
+margin-left: 1em;
+margin-top: 1em;
+
+}
+.cod{
+
+margin-left: 2em;
+color: gray;
+
+}
+
+.red{
+margin-left: 2em;
+color: red;
+margin-top: 2em;
+
+
+}
+.span{
+font-size: 2em;
+margin-left: 0.3em;
+color: red;
+
+
+}
+
+.color{
+
+    color: gray;
+    margin-left: 2em;
+    margin-top: 1.1em;
+}
+
+.option2{
+    width: 60%;
+    height: 10%;
+    background-color: white;
+    margin-left: 2em;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 0.6em;
+}
+
+.box2{
+width: 50px;
+height: 50px;
+
+}
+
+.box2:hover{
+ scale: 1.3;
+}
+
+
+.imge2{
+
+    height: 94%;
+    width: 100%;
+    
+    
+    }
+
+    .gray{
+     color: gray;
+     margin-left: 2em;
+     margin-top: 1em;
+
+    }
+    .may{
+margin-left: 3.2em;
+margin-top: 1.4em;
+
+
+    }
+
+    .button{
+background-color: red;
+  height:45px;
+  width: 150px;
+  border-radius: 7px;
+  margin-top: 2em;
+color: white;
+
+    }
+    .button:hover{
+background-color: rgb(11, 113, 11);
+    }
+
+/* media query */
+
+
+@media only screen and (max-width:930px){
+
+    .parent{
+        width: 90vh;
+    }
+}
+
+
+@media only screen and (max-width:680px){
+
+
+.child, .child2 , .childimg
+    {
+position: static;
+ 
+} 
+
+.child, .child2{
+    width: 100%;
+}
+
+.option{
+    height: 20%;
+    padding-top: 1em;
+}
+.parent{
+  
+    flex-direction: column;
+    margin-top: 20em;
+    width: 60vh; 
+
+}
+
+.child{
+    height: 55%;
+    left: 0%;
+    top: 0%;
+    
+    
+}
+
+    .childimg{
+         position: relative;
+        left: 15px; 
+        bottom: 26px; 
+       height: 80%;
+       width: 85%;
+    }  
+    .option{
+        height: 20%;
+    
+    }
+
+}
+
+@media only screen and (max-width:390px){
+
+    .parent{
+        width: 70vw;
+    }
+}
+
+ 
